@@ -2,7 +2,7 @@ import "./App.css";
 // import { useState } from 'react';
 import NavBar from "./navbar.js"
 import TextForm   from "./TextForm";
-// import About from "./About";
+import About from "./About";
 
 // const cars = ["Saab", "Volvo", "BMW"];
 // const age = 15;
@@ -49,9 +49,9 @@ function App() {
       <div className="container my-3">
       <TextForm heading="Enter text below to analyze." />
       </div>
-       {/* <div className="container my-3">
+       <div className="container my-3">
       <About />
-      </div> */}
+      </div>
       
 
 
